@@ -131,7 +131,6 @@ class Graph:
         depth-first order.
         """
         pass  # TODO
-
         s = Stack()
         start_path = []
         start_path.append(starting_vertex)
@@ -153,8 +152,6 @@ class Graph:
                     s.push(copy)
 
     def dfs_recursive(self, starting_vertex, destination_vertex, visited = None, path = None):
-
-
         """
         Return a list containing a path from
         starting_vertex to destination_vertex in
